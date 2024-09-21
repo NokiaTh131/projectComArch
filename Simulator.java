@@ -9,6 +9,7 @@ public class Simulator {
             System.out.println("java Simulator <file_name>");
             System.exit(1);
         }
+        
         String filename = args[0];
         File inputFile = new File(filename);
         boolean isExist = inputFile.exists();

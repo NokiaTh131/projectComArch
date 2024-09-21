@@ -4,7 +4,6 @@ import java.util.Set;
 public class Decoder {
 
     private static Decoder instance;
-
     private Decoder() {
     }
 
