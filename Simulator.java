@@ -19,7 +19,6 @@ public class Simulator {
         Stage stage = new Stage();
         int[] memory = stage.getMemory();
         int pc = 0;
-
         try (BufferedReader br = new BufferedReader(new FileReader(inputFile))) {
             String line;
             while ((line = br.readLine()) != null) {
@@ -38,5 +37,4 @@ public class Simulator {
             stage.simulate();
             System.exit(0);
         }
-
 }
