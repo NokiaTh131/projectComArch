@@ -6,7 +6,6 @@ public class Decoder {
     private static Decoder instance;
     private Decoder() {
     }
-
     public static final int OPCODE_ADD = 0b000;
     public static final int OPCODE_NAND = 0b001;
     public static final int OPCODE_LW = 0b010;
